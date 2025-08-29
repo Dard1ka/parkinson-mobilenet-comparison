@@ -23,7 +23,7 @@ DataSet :
 After combining and processing, the total data used is:
 1,964 Spiral images (Parkinson's & Healthy)
 1,632 Wave images (Parkinson's & Healthy)
-Link Dataset Final : https://drive.google.com/drive/folders/1RR3sKIvLAUYNjPkfyMbqp6aBkhNOdQmH?usp=sharing 
+Link Final Dataset: https://drive.google.com/drive/folders/1RR3sKIvLAUYNjPkfyMbqp6aBkhNOdQmH?usp=sharing 
 
 Environment Setup : 
 ```bash

@@ -23,6 +23,7 @@ DataSet :
 After combining and processing, the total data used is:
 1,964 Spiral images (Parkinson's & Healthy)
 1,632 Wave images (Parkinson's & Healthy)
+Link Dataset Final : https://drive.google.com/drive/folders/1RR3sKIvLAUYNjPkfyMbqp6aBkhNOdQmH?usp=sharing 
 
 Environment Setup : 
 ```bash
@@ -30,6 +31,7 @@ Environment Setup :
 ```
 
 Experimental Results
+Spiral Detection : 
 | Model                            | Precision | Recall | F1-Score | Accuracy |
 | -------------------------------- | --------- | ------ | -------- | -------- |
 | MobileNetV2 (ReLU + ReLU)        | 0.95      | 0.95   | 0.95     | 0.95     |
@@ -39,6 +41,17 @@ Experimental Results
 | MobileNetV2 Custom (Hard Swish)  | 0.93      | 0.935  | 0.93     | 0.93     |
 | MobileNetV2 Custom (Hard + ReLU) | 0.94      | 0.94   | 0.94     | 0.94     |
 | MobileNetV3-Small                | 0.925     | 0.93   | 0.925    | 0.93     |
+
+Wave Detection : 
+| Model                            | Precision | Recall | F1-Score | Accuracy |
+| -------------------------------- | --------- | ------ | -------- | -------- |
+| MobileNetV2 (ReLU + ReLU)        | 0.94      | 0.94   | 0.935    | 0.94     |
+| MobileNetV2 (Hard Swish)         | 0.915     | 0.905  | 0.905    | 0.91     |
+| MobileNetV2 (Hard + ReLU)        | 0.92      | 0.915  | 0.915    | 0.91     |
+| MobileNetV2 Custom (ReLU + ReLU) | 0.92      | 0.91   | 0.91     | 0.91     |
+| MobileNetV2 Custom (Hard Swish)  | 0.90      | 0.89   | 0.89     | 0.89     |
+| MobileNetV2 Custom (Hard + ReLU) | 0.915     | 0.915  | 0.91     | 0.91     |
+| MobileNetV3-Small                | 0.93      | 0.925  | 0.925    | 0.93     |
 
 License
 This project is licensed under the MIT License –
